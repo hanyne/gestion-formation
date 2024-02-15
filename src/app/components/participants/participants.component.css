@@ -1,0 +1,59 @@
+/* formateur.component.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #262ec0;
+    color: white;
+  }
+  
+  .ajouter-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .ajouter-button:hover {
+    background-color: #45a049;
+  }
+  
+  .modifier-button, .supprimer-button {
+    background-color: #008CBA;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modifier-button:hover, .supprimer-button:hover {
+    background-color: #007199;
+  }
+  

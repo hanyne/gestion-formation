@@ -1,0 +1,39 @@
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-footer {
+    padding: 10px 20px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .bg-c-green {
+    background-color: #708deb; /* couleur de fond */
+  }
+  
+  .text-c-green {
+    color: #ffffff; /* couleur de texte */
+  }
+  
+  .ico {
+    width: 60px; /* Taille de l'image */
+    height: auto; /* Conserver le ratio hauteur/largeur */
+    position: absolute; /* Position absolue par rapport à son conteneur */
+    top: 10px; /* Décalage de 10px depuis le haut */
+    right: 10px; /* Décalage de 10px depuis la droite */
+  }
+  
+  
+  .text-white {
+    color: #ffffff; /* couleur de texte */
+  }
+  
+  .text-muted {
+    color: #6c757d; /* couleur de texte grisé */
+  }
+  

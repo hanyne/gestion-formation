@@ -1,0 +1,6 @@
+.btn-container {
+    display: flex; /* Utiliser un modèle de boîte flexible */
+    justify-content: center; /* Centrer horizontalement le contenu */
+    margin-top: 20px; /* Espacement supérieur pour le centrage vertical */
+  }
+  

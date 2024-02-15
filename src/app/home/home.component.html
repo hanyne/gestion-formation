@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ZenBlog Bootstrap Template - About</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+
+  <!-- =======================================================
+  * Template Name: ZenBlog
+  * Updated: Jan 29 2024 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/zenblog-bootstrap-blog-template/
+  * Author: BootstrapMade.com
+  * License: https:///bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+       <img src="../../assets/img/cni.jpg" alt="">
+        <h1>CNI</h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="/home">Accueil</a></li>
+          <li><a href="about.html">A propos</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li *ngIf="loggedInUser"><a (click)="logout()">Déconnexion</a></li>
+          <li *ngIf="!loggedInUser"><a href="/login">Login</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+      
+      
+
+      <div class="position-relative">
+        <a href="#" class="mx-2"><span class="bi-facebook"></span></a>
+        <a href="#" class="mx-2"><span class="bi-twitter"></span></a>
+        <a href="#" class="mx-2"><span class="bi-instagram"></span></a>
+
+        <a href="#" class="mx-2 js-search-open"><span class="bi-search"></span></a>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+
+        <!-- ======= Search Form ======= -->
+        <div class="search-form-wrap js-search-form-wrap">
+          <form action="search-result.html" class="search-form">
+            <span class="icon bi-search"></span>
+            <input type="text" placeholder="Search" class="form-control">
+            <button class="btn js-search-close"><span class="bi-x"></span></button>
+          </form>
+        </div><!-- End Search Form -->
+
+      </div>
+
+    </div>
+
+  </header><!-- End Header -->
+
+  <main id="main">
+    <section>
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5">
+            <h1 class="page-title">Centre National de l'Informatique</h1>
+          </div>
+        </div>
+
+        <div class="row mb-5">
+
+          <div class="d-md-flex post-entry-2 half">
+            <a href="#" class="me-4 thumbnail">
+              <a href="#">
+                <img src="../../assets/img/cnii.jpg" alt="" class="img-fluid" style="width: 500px; height: auto;">
+            </a>
+                        </a>
+            <div class="ps-md-5 mt-4 mt-md-0">
+              <div class="post-meta mt-4">About us</div>
+              <h2 class="mb-4 display-4">Notre Centre</h2>
+
+              <p>Le Centre National de l’Informatique est un établissement public à caractère non administratif doté de la personnalité civile et de l’autonomie financière. Le CNI est un organisme placé sous la tutelle du Ministre des Technologies de la Communication, et opérant dans les domaines du secteur de l’informatique et des technologies de la communication et certifié ISO 9001version 2015.</p>
+            </div>
+          </div>
+
+          <div class="d-md-flex post-entry-2 half mt-5">
+            <a href="#" class="me-4 thumbnail order-2">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d102215.81402703536!2d10.08344944993329!3d36.812668075009505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x12fd3386aae7a5f9%3A0x48d6f4f6afb7d57!2s17%2C%201005%20Av.%20Belhassen%20Ben%20Chaabane%2C%20Tunis!3m2!1d36.8126965!2d10.1658505!5e0!3m2!1sfr!2stn!4v1707996269666!5m2!1sfr!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </a>
+            <div class="pe-md-5 mt-4 mt-md-0">
+              <div class="post-meta mt-4">Notre &amp; Localisation</div>
+              <h2 class="mb-4 display-4">Notre Localisation</h2>
+
+              <p> Notre adresse au Centre National de l'Informatique, situé au 17 Rue Belhassen Ben Chaabane, El-Omrane, 1005, fournit une référence physique précise pour nos utilisateurs. Ils peuvent nous localiser aisément, ce qui renforce la confiance et la fiabilité de notre présence en ligne. </p>
+              <p>En outre, nous sommes accessibles via différents canaux de communication : notre numéro de téléphone (+216 71 78 30 55), notre numéro de fax (+216 71 781862), et notre adresse e-mail (webcni@cni.tn) sont à leur disposition pour toute demande ou question. Enfin, notre site web (www.cni.tn) constitue une ressource complète, offrant une plateforme conviviale où les visiteurs peuvent trouver des informations détaillées sur nos services et activités. La fonction de localisation intégrée sur notre site assure une navigation fluide et une interaction efficace avec notre audience, renforçant ainsi notre présence en ligne en tant que Centre National de l'Informatique.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="mb-5 bg-light py-5">
+      <div class="container" data-aos="fade-up">
+        <div class="row justify-content-between align-items-lg-center">
+          <div class="col-lg-5 mb-4 mb-lg-0">
+            <h2 class="display-4 mb-4">Actualités Récente</h2>
+            <p>Le Centre National de l'Informatique (CNI) offre une variété de formations pour répondre aux besoins spécifiques de ses utilisateurs. Ces formations comprennent des cycles dédiés aux applications nationales hébergées au CNI, telles que le Système de Gestion du personnel de l'État (INSAF) et les applications du Schéma Directeur Informatique Commun de l'Administration (SDICA). 
+            </p>
+            <p>Nous proposons également des formations sur mesure, adaptées aux demandes spécifiques des organismes, couvrant des thèmes tels que le management de l'informatique, l'architecture des réseaux, la sécurité, ainsi que des séminaires d'expertise sur des sujets innovants comme le Cloud Computing et le Big Data. En outre, le CNI organise des sessions de formation continue pour les fonctionnaires de l'administration, leur permettant d'évoluer dans leur carrière et d'acquérir de nouvelles compétences. Enfin, nous accueillons régulièrement des étudiants en informatique pour des stages d'initiation ou de perfectionnement, offrant ainsi une opportunité précieuse pour compléter leur formation académique et se préparer à une carrière professionnelle réussie.
+            </p>
+            <p><a href="#" class="more">Voir plus</a></p>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-6">
+                <img src="../../assets/img/form.jpg" alt="" class="img-fluid mb-4">
+              </div>
+              <div class="col-6 mt-4">
+                <img src="../../assets/img/formation.jpg" alt="" class="img-fluid mb-4">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <div class="row justify-content-center">
+              <div class="col-lg-6">
+                <h2 class="display-4">Notre Formation</h2>
+                <p>Que vous soyez débutant cherchant à acquérir de nouvelles compétences ou professionnel expérimenté désireux de se perfectionner, nos formations offrent une expérience d'apprentissage enrichissante et dynamique pour vous aider à atteindre vos objectifs professionnels et à prospérer dans le monde de la technologie.</p>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Utilisation de *ngFor pour parcourir la liste des formations -->
+          <div class="col-lg-4 text-center mb-5" *ngFor="let formation of formations">
+            <img [src]="formation.image" alt="" class="img-fluid rounded-circle w-50 mb-4">
+            <h4>{{ formation.nom_formation }}</h4>
+            <p>{{ formation.description }}</p>
+            <div class="inscription-buttons">
+              <a [routerLink]="['/inscription', formation.id]" class="inscription-button">S'inscrire</a>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </section>
+  
+
+  </main><!-- End #main -->
+ 
+  <!-- ======= Footer ======= -->
+  <div class="footer-basic">
+    <footer>
+        <div class="social text-center">
+            <a href="#"><i class="icon ion-social-instagram"></i></a>
+            <a href="#"><i class="icon ion-social-snapchat"></i></a>
+            <a href="#"><i class="icon ion-social-twitter"></i></a>
+            <a href="https://www.facebook.com/CNITUNISI/"><i class="icon ion-social-facebook"></i></a>
+        </div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Accueil</a></li>
+            <li class="list-inline-item"><a href="#">A propos</a></li>
+            <li class="list-inline-item"><a href="#">Contact</a></li>
+            <li class="list-inline-item"><a href="#">Login</a></li>
+        </ul>
+        <p class="copyright text-center">CNI © 2024</p>
+    </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>

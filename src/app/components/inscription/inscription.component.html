@@ -1,0 +1,33 @@
+<div class="container">
+  <!-- Cadre coloré -->
+  <div class="border rounded p-4 mb-4" style="background-color: #f0f0f0;">
+    <!-- Image en haut -->
+    <img src="../../../assets/img/liste-de-controle.png" alt="Image" class="img-fluid mb-3 ico d-block mx-auto mb-3">
+    <!-- Titre -->
+    <h2 class="text-center mb-4">Inscription pour la formation {{ nomFormation }}</h2>
+
+    <!-- Formulaire d'inscription -->
+    <div class="inscription-form">
+      <form (submit)="inscrire()" class="row g-3">
+        <!-- Champ masqué pour l'ID de la formation -->
+        <input type="hidden" id="formationId" name="formationId" >
+
+        <div class="col-md-6">
+          <!-- Affichage du nom de la formation -->
+          <label for="nomFormation" class="form-label">Formation:</label>
+          <input type="text" id="nomFormation" name="nomFormation" [(ngModel)]="nomFormation" class="form-control" readonly>
+        </div>
+
+        <div class="col-md-6">
+          <!-- Champ pour sélectionner la date d'inscription -->
+          <label for="date" class="form-label">Date d'inscription:</label>
+          <input type="date" id="date" name="date" [(ngModel)]="dateInscription" class="form-control" required>
+        </div>
+
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-primary">S'inscrire</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
